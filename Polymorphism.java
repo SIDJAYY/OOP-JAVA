@@ -1,4 +1,4 @@
-class Overload{
+class Overloading{
   int add(int a, int b){
     return a + b;
   }
@@ -9,7 +9,7 @@ class Overload{
 
 public class Polymorphism{
   public static void main(String a[]){
-    Overload addMe = new Overload();
+    Overloading addMe = new Overloading();
 
     System.out.println(addMe.add(2,3));
     System.out.println(addMe.add(6,2,3));
