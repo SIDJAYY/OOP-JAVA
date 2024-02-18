@@ -11,7 +11,8 @@ public class Main{
   public static void main(String a[]){
     Main myObject1 = new Main(); // <- instanciation
 
-    System.out.print("your grade is: "+myObject1.grade()); // <- calling the grade of myObject1
-    
+    System.out.println("your grade is: "+myObject1.grade); // <- calling the grade of myObject1
+    myObject1.sayHi(); // <- calling the sayHi method
   }
 }
+
