@@ -1,6 +1,6 @@
 class Set{
-  private String name = "Cardo";
-  public void getName(){
+  private String name = "Cardo"; // <- private fields cannot be used in main methods
+  public void getName(){// <- creating a public method to call the private fields
     System.out.print("my name is:" + name);
   }
 }
