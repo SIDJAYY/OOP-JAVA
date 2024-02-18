@@ -1,6 +1,6 @@
-class Set{
-  private String name = "Cardo"; // <- private fields cannot be used in main methods
-  public void getName(){// <- creating a public method to call the private fields
+class User{
+  private String name = "Cardo";   // <- private fields cannot be used in main methods
+  public void getName(){   // <- creating a public method to call the private fields
     System.out.print("my name is:" + name);
   }
 }
@@ -8,7 +8,7 @@ class Set{
 public class Encapsulation{
   
   public static void main(String a[]){
-    Set user = new Set();
+    User user = new User();
     user.getName();
   }
 }
