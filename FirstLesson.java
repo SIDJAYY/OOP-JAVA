@@ -1,4 +1,4 @@
-public class Main{
+public class FirstLesson{
   
   int grade = 73; // <- fields /global variable
 
@@ -9,7 +9,7 @@ public class Main{
 
   
   public static void main(String a[]){
-    Main myObject1 = new Main(); // <- instanciation
+    FirstLesson myObject1 = new FirstLesson(); // <- instanciation
 
     System.out.println("your grade is: "+myObject1.grade); // <- calling the grade of myObject1
     myObject1.sayHi(); // <- calling the sayHi method
