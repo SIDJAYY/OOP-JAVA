@@ -1,10 +1,11 @@
-abstract class BasicAttacks{
+abstract class BasicAttacks{ // <- superclass
   abstract void attack();
 }
 
-class Ling extends BasicAttacks{
-  
-  void attack(){
+class Ling extends BasicAttacks{ // <- subclass
+
+  @override
+  void attack(){ // <- creating the body of attack in superclass
     System.out.println("normal damage,Critical damage");
   }
 }
