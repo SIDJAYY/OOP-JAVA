@@ -29,4 +29,8 @@ public class Main{
 }
 
 //Inheritance = allows a class (subclass or derived class) to inherit the properties and behaviors of another class (superclass or base class).
-//a class can only inherit from one superclass, but it allows for the creation of hierarchical relationships between classes.
+//              a class can only inherit from one superclass, but it allows for the creation of hierarchical relationships between classes.
+
+
+
+
