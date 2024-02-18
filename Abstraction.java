@@ -5,7 +5,7 @@ abstract class BasicAttacks{ // <- superclass
 class Ling extends BasicAttacks{ // <- subclass
 
   @override
-  void attack(){ // <- creating the body of attack in superclass
+  void attack(){ // <- creating the body of attack method in superclass
     System.out.println("normal damage,Critical damage");
   }
 }
